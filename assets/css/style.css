@@ -4,6 +4,15 @@ body {
   line-height: 1;
 }
 
+@media screen and (max-width: 575px) {
+  body { font-size: 12px; }
+  .col-1 { padding-left: 3px; }
+  span span {
+    /* allow break-up of AM/PM designations */
+    word-wrap: break-word; 
+  }
+} 
+
 textarea{
   background: transparent;
   border: none;
