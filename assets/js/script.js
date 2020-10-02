@@ -19,7 +19,7 @@ function saveEntry(event) {
 
 function colourCodeEntries() {
   // get current hour
-  let curHr = m.format('H');
+  let curHr = Number(m.format('H'));
   for (let idx=9; idx < 18; idx++) {
     if (idx==curHr) {
       $(`#hour-${idx} textarea`).addClass('present');
