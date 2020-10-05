@@ -3,7 +3,7 @@ This app is an online calendar application that allows the user to plan, record 
 
 The app is written using HTML, CSS, jQuery, Bootstrap, and the [Moment.js](https://momentjs.com/) library.
 
-Here are samples of the interface on devices of different sizes.
+Here are samples of the interface on devices of different sizes. <br>
 ![Screenshot of planner on small screen](assets/readme/scheduler_small.png)
 ![Screenshot of planner on large screen](assets/readme/scheduler_large.png)
 
